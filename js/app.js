@@ -12,11 +12,11 @@ window.addEventListener("scroll", function () {
   }
 });
 // show sidebar
-navBtn.addEventListener("click", function () {
+navBtn.addEventListener("click", () => {
   sidebar.classList.add("show-sidebar");
 });
-closeBtn.addEventListener("click", function () {
+closeBtn.addEventListener("click", () => {
   sidebar.classList.remove("show-sidebar");
 });
 // set year
-date.innerHTML = new Date().getFullYear();
+// date.innerHTML = new Date().getFullYear();
